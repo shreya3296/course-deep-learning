@@ -34,7 +34,9 @@ The course covers advanced data science techniques, including **unsupervised lea
   - **Silhouette Score:** Silhouette scores were calculated for each k, further helping identify the best number of clusters.
   - **Gap Statistic:** The gap statistic was used to find the optimal number of clusters by comparing the within-cluster dispersion with a null reference distribution. The "slack" rule was applied to determine the best k.
   - **Best k Selection:** After comparing the elbow method, silhouette score, and gap statistic results, the best k was determined to be 2.
-  
+    
+  <img width="1009" alt="Screenshot 2024-09-08 at 10 50 42 PM" src="https://github.com/user-attachments/assets/7352f16c-c266-4d0d-b31f-79500ca668d9">
+
   **Part 3: DBSCAN**  
   - **DBSCAN Clustering:** DBSCAN was applied to the dataset, with the epsilon parameter tuned using the knee plot method. The number of clusters found by DBSCAN was analyzed, revealing one dominant cluster and several smaller clusters.
   - **Comparison with K-Means:** The genre makeup of clusters found by both DBSCAN and K-Means was compared, with K-Means showing more balanced and interpretable results.
@@ -90,6 +92,8 @@ The course covers advanced data science techniques, including **unsupervised lea
 
 - **Problem Statement:**  
   This assignment focuses on artificial neural networks (ANNs) and model interpretation. The primary tasks are to build, evaluate, and interpret ANN models to predict flight delays. Additionally, students will participate in a Kaggle competition using the Kannada MNIST dataset for handwritten digit classification, focusing on regularizing an overfit model.
+  
+<img width="486" alt="Screenshot 2024-09-08 at 10 52 14 PM" src="https://github.com/user-attachments/assets/5b4fbd70-7b45-4188-9d27-03d2674e2da2">
 
 - **Dataset:**  
   **Part 1**: The dataset consists of flight information with variables such as scheduled arrival and departure times, flight distance, and whether the flight was delayed by 15 minutes or more (`DELAY_OR_NOT`).  
@@ -172,6 +176,8 @@ The course covers advanced data science techniques, including **unsupervised lea
   - **RNN Model Design**: The model includes an Embedding layer, a Bidirectional GRU layer for sequence modeling, and a Dense layer with softmax activation to predict entity tags for each word in the sentence.
   - **Training**: The model is trained using sequences of words and their corresponding entity tags. Early stopping is applied to prevent overfitting.
   - **Evaluation and Visualization**: F1 scores are calculated for each entity tag to assess the model's performance. Additionally, a Principal Component Analysis (PCA) is applied to visualize the learned representations of the bidirectional GRU layer.
+  ![Uploading Screenshot 2024-09-08 at 10.57.47 PM.png…]()
+
   - **Results**: The model's predictions for entity tags are visualized, and its performance is evaluated across different categories such as geographical entities (B-geo), persons (B-per), and organizations (B-org).
 
 - **Techniques Used:**
